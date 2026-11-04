@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==================================
+# Cardiovascular ML Practicum
+# ==================================
+
+# Dataset - keep locally, do not upload
+data/raw/
+data/processed/
+
+# Generated model files
+*.pkl
+*.joblib
+
+# Temporary files
+.DS_Store
+Thumbs.db
